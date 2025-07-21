@@ -9,12 +9,14 @@ from empleados import (
 def main_menu():
     empleados = cargar_empleados()
     while True:
+        print("\n--- Bienvenido al Registro de Vacaciones de Clinica Santa Lucia---")
         print("\n--- Menú Principal ---")
         print("1. Agregar Empleado")
         print("2. Ver Empleados")
         print("3. Registrar Vacaciones")
         print("4. Actualizar Saldo Anual")
-        print("5. Salir")
+        print("5. Exportar Reportes")
+        print("6. Salir")
         opcion = input("Opción: ").strip()
 
         if opcion == "1":
@@ -26,7 +28,11 @@ def main_menu():
         elif opcion == "4":
             actualizar_vacaciones_anuales(empleados)
         elif opcion == "5":
-            print("¡Hasta la próxima!")
+            from reportes import exportar_empleados_a_excel, exportar_empleados_a_pdf
+            exportar_empleados_a_excel()
+            exportar_empleados_a_pdf()
+        elif opcion == "6":
+            print("¡Gracias por utilizar sistemas TatoLab!")
             break
         else:
             print("Opción inválida.")
