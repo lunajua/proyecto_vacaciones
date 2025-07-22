@@ -1,12 +1,30 @@
-# Registro de Vacaciones 
+# 🗓 Sistema de Gestión de Vacaciones
 
-Sistema modular en Python para gestionar vacaciones de empleados según antigüedad, incluyendo saldos pendientes y registro de días tomados.
+Solución automatizada en Python para la gestión eficiente de licencias y generación de reportes en Excel y PDF. Diseñado con foco en modularidad, escalabilidad y documentación profesional.
 
-## Características
+## 🚀 Funcionalidades
+- Registro de empleados y fechas clave
+- Cálculo automático de días disponibles
+- Exportación en Excel y PDF (reportlab)
+- Interfaz por consola simple e intuitiva
+- Modularización avanzada del código
+- Empaquetado profesional y testing
 
-- Carga y guarda empleados en archivo JSON
-- Cálculo automático de días por antigüedad
-- Interfaz por consola interactiva
-- Modularizado y testeable
-- Fácilmente adaptable a entornos web o Excel
+## 🛠 Tecnologías
+- Python 3
+- pandas, openpyxl, reportlab
+- Git para control de versiones
+- Documentación integrada con docstrings
 
+## 📦 Estructura del Proyecto
+vacaciones/
+├── main.py
+├── empleados.py
+├── calculos.py
+├── exportadores/
+│   ├── excel.py
+│   └── pdf.py
+├── tests/
+│   ├── test_calculos.py
+│   └── test_exportadores.py
+└── README.md

@@ -1,3 +1,4 @@
+from reportes import *
 from db import cargar_empleados
 from empleados import (
     agregar_empleado,
@@ -39,3 +40,5 @@ def main_menu():
 
 if __name__ == "__main__":
     main_menu()
+    exportar_empleados_a_excel()
+    exportar_empleados_a_pdf()

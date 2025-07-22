@@ -8,13 +8,15 @@ def exportar_empleados_a_excel(nombre_archivo="reporte_empleados.xlsx"):
     if not empleados:
         print("No hay empleados para exportar.")
         return
+    
+    for emp in empleados:
+        emp["vacaciones_tomadas"] = "; ".join([f"{v['inicio']} a {v['fin']} ({v['dias']} dias)" for v in emp.get("vacaciones_tomadas", [])]) if emp.get("vacaciones_tomadas") else "Ninguna"
 
     df = pd.DataFrame(empleados)
     
     # Aplanar vacaciones tomadas (podés ajustarlo)
-    df["vacaciones_tomadas"] = df["vacaciones_tomadas"].apply(
-        lambda vac: "; ".join([f"{v['inicio']} a {v['fin']} ({v['dias']} días)" for v in vac]) if vac else "Ninguna"
-    )
+    #df["vacaciones_tomadas"] = df["vacaciones_tomadas"].apply(
+        #lambda vac: "; ".join([f"{v['inicio']} a {v['fin']} ({v['dias']} días)" for v in vac]) if vac else "Ninguna")#
 
     df.to_excel(nombre_archivo, index=False)
     print(f"Reporte exportado exitosamente a {nombre_archivo}.")

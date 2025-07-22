@@ -1,0 +1,35 @@
+[
+    {
+        "numero_legajo": "206",
+        "nombre": "Lorena Laura",
+        "apellido": "Ghiglione",
+        "sector": "Administracion",
+        "fecha_ingreso": "2024-10-01",
+        "vacaciones_periodo_anterior": 0,
+        "vacaciones_tomadas": [],
+        "saldo_vacaciones_pendiente": 14,
+        "last_vacation_update_year": 2024
+    },
+    {
+        "numero_legajo": "211",
+        "nombre": "Juan Pablo",
+        "apellido": "Luna",
+        "sector": "Administración",
+        "fecha_ingreso": "2025-04-16",
+        "vacaciones_periodo_anterior": 0,
+        "vacaciones_tomadas": [],
+        "saldo_vacaciones_pendiente": 14,
+        "last_vacation_update_year": 2025
+    },
+    {
+        "numero_legajo": "96",
+        "nombre": "Romina",
+        "apellido": "Tornini",
+        "sector": "Facturación",
+        "fecha_ingreso": "2015-01-01",
+        "vacaciones_periodo_anterior": 30,
+        "vacaciones_tomadas": [],
+        "saldo_vacaciones_pendiente": 58,
+        "last_vacation_update_year": 2015
+    }
+]
