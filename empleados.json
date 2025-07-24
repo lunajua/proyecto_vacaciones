@@ -7,8 +7,8 @@
         "fecha_ingreso": "2024-10-01",
         "vacaciones_periodo_anterior": 0,
         "vacaciones_tomadas": [],
-        "saldo_vacaciones_pendiente": 14,
-        "last_vacation_update_year": 2024
+        "saldo_vacaciones_pendiente": 28,
+        "last_vacation_update_year": 2025
     },
     {
         "numero_legajo": "211",
@@ -22,14 +22,25 @@
         "last_vacation_update_year": 2025
     },
     {
-        "numero_legajo": "96",
-        "nombre": "Romina",
-        "apellido": "Tornini",
-        "sector": "Facturación",
-        "fecha_ingreso": "2015-01-01",
-        "vacaciones_periodo_anterior": 30,
+        "numero_legajo": "218",
+        "nombre": "Sofia",
+        "apellido": "Inzunza",
+        "sector": "Secretaria",
+        "fecha_ingreso": "2024-10-01",
+        "vacaciones_periodo_anterior": 0,
         "vacaciones_tomadas": [],
-        "saldo_vacaciones_pendiente": 58,
-        "last_vacation_update_year": 2015
+        "saldo_vacaciones_pendiente": 14,
+        "last_vacation_update_year": 2024
+    },
+    {
+        "numero_legajo": "80",
+        "nombre": "Facundo",
+        "apellido": "Luna",
+        "sector": "Mantenimiento",
+        "fecha_ingreso": "2025-01-02",
+        "vacaciones_periodo_anterior": 0,
+        "vacaciones_tomadas": [],
+        "saldo_vacaciones_pendiente": 14,
+        "last_vacation_update_year": 2025
     }
 ]
